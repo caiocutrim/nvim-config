@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/caio/labs/learning-ruby/escamboapp/app/views'
+let g:netrw_dirhist_2='/home/caio/labs/learning-ruby/escamboapp/app/views/backoffice'
+let g:netrw_dirhist_3='/home/caio/labs/learning-ruby/escamboapp/app/views/backoffice/categories'
+let g:netrw_dirhist_4='/home/caio/labs/learning-ruby/escamboapp/app/views/backoffice/categories/shared'
