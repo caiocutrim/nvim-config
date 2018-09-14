@@ -1,7 +1,12 @@
 call plug#begin('~/.config/nvim/plugged')
 Plug 'dag/vim-fish'
+
 Plug 'bling/vim-bufferline'
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+" Vim/Ruby Configuration Files
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+Plug 'slim-template/vim-slim'
 Plug 'elzr/vim-json'
 Plug 'benmills/vimux'
 Plug 'tpope/vim-sensible'
@@ -115,7 +120,7 @@ if (has('termiguicolors'))
     set termiguicolors
 endif
 colorscheme nord
-"Get ride of ugly split borders
+" get ride of ugly split borders
 " hi FoldColumn ctermbg=235 ctermfg=235
 " hi SignColumn ctermfg=235 ctermbg=235
 " hi LineNr ctermbg=235 ctermfg=235
@@ -327,10 +332,8 @@ let g:airline_mode_map = {
             \ 'c'  : 'C',
             \ 'v'  : 'V',
             \ 'V'  : 'V',
-            \ '' : 'V',
             \ 's'  : 'S',
             \ 'S'  : 'S',
-            \ '' : 'S',
             \ }
 set noshowmode
 " don't show warning in status line, because is ugly
