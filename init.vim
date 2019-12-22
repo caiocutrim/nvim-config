@@ -78,7 +78,6 @@ Plug 'othree/yajs.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'gregsexton/matchtag'
-Plug 'Lokaltog/powerline', {'do': 'powerline/bindings/vim/'}
 
 " VIM SCRIPTS
 Plug 'Shougo/neco-vim'
@@ -88,12 +87,10 @@ Plug 'Valloric/YouCompleteMe', {'do' : './install.py --clang-completer'}
 " PHP
 Plug 'stephpy/vim-php-cs-fixer'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
-Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
 Plug 'vim-php/vim-composer'
 Plug '2072/PHP-Indenting-for-VIm'
 Plug 'adoy/vim-php-refactoring-toolbox'
 
-Plug 'lvht/phpcd.vim', { 'for': 'php', 'do': 'composer install' }
 Plug 'tobyS/pdv'
 
 " HTML
