@@ -1,6 +1,7 @@
 call plug#begin('~/.config/nvim/plugged')
 Plug 'dag/vim-fish'
 
+
 Plug 'bling/vim-bufferline'
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 " Vim/Ruby Configuration Files
@@ -35,7 +36,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
 " EMMET VIM
-Plug 'mattn/emmet-vim'
+" Plug 'mattn/emmet-vim'
 
 " VIM SURROUND
 Plug 'tpope/vim-surround'
@@ -92,7 +93,6 @@ Plug '2072/PHP-Indenting-for-VIm'
 Plug 'adoy/vim-php-refactoring-toolbox'
 
 Plug 'tobyS/pdv'
-
 " HTML
 Plug 'othree/html5.vim'
 
@@ -353,7 +353,7 @@ let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
 "-------------Settings(Plugins)---------------"
 set mouse=c
-let g:user_emmet_leader_key='<C-M>'
+" let g:user_emmet_leader_key='<C-M>'
 
 let g:eighties_enabled = 1
 let g:eighties_minimum_width = 80
@@ -425,8 +425,7 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 let g:UltiSnipsEditSplit="vertical"
 
-let g:UltiSnipsSnippetDirectories=['/home/caio/UltiSnips']
-inoremap <silent> <CR> <C-r>=<SID>my_cr_function()<CR>
+" let g:UltiSnipsSnippetDirectories=['/home/caio/UltiSnips']
 
 " great ctags configuration
 let g:atags_build_commands_list = [
