@@ -84,7 +84,7 @@ Plug 'Lokaltog/powerline', {'do': 'powerline/bindings/vim/'}
 Plug 'Shougo/neco-vim'
 Plug 'tobyS/vmustache'
 " auto completion engine
-Plug 'Valloric/YouCompleteMe', {'do' : './install.py'}
+Plug 'Valloric/YouCompleteMe', {'do' : './install.py --clang-completer'}
 " PHP
 Plug 'stephpy/vim-php-cs-fixer'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
