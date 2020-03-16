@@ -1,7 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/caio/.config/nvim/plugged/nord-vim'
-let g:netrw_dirhist_2='/home/caio/.config/nvim/plugged/nord-vim/assets'
-let g:netrw_dirhist_3='/home/caio/.config/nvim/plugged/nord-vim'
-let g:netrw_dirhist_4='/home/caio/.config/nvim/plugged/nord-vim/colors'
-let g:netrw_dirhist_5='/home/caio/.config/nvim'
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/caio/Documents/Projects/Lab/javascript-data-structures'
+let g:netrw_dirhist_4='/usr/share/kubuntu-default-settings/kf5-settings'
+let g:netrw_dirhist_3='/home/caio/Documents/Projects/posicao'
+let g:netrw_dirhist_2='/home/caio/Documents/Projects/informe-de-rendimentos/src'
+let g:netrw_dirhist_1='/home/caio/Documents/Projects/informe-de-rendimentos'
